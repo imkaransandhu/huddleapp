@@ -1,0 +1,588 @@
+/* 
+
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pink: hsl(322, 100%, 66%)
+- Light Pink: hsl(321, 100%, 78%)
+- Light Red: hsl(0, 100%, 63%)
+
+### Neutral
+
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Very Pale Blue: hsl(207, 100%, 98%)
+
+## Typography
+
+### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 700
+
+### Body
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 600, 700
+
+## Icons
+
+For the social icons, you can use a font icon library. Some suggestions can be found below:
+
+- [Font Awesome](https://fontawesome.com/)
+- [IcoMoon](https://icomoon.io/)
+- [Ionicons](https://ionicons.com/)
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.main-heading {
+  font-family: "Poppins", sans-serif;
+}
+
+/*********************************************** Header CSS Starts ***********************************************/
+
+/* Header */
+header {
+  width: 100%;
+  padding: 2.01rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Huddle logo div */
+.huddle-logo {
+  padding-top: 2.5px;
+}
+
+/* Huddle logo image */
+.huddle-logo img {
+  width: 5.5rem;
+}
+
+/* Try it Button in the header at right side */
+.try-it-btn {
+  background-color: #ffffff;
+  border: 1px solid hsl(321, 100%, 78%);
+  color: hsl(321, 100%, 78%);
+  border-radius: 1.5rem;
+  padding: 0.2rem 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.6rem;
+}
+
+/*********************************************** Header CSS Finish ***********************************************/
+
+/*********************************************** Community fans sectoin CSS start ***********************************************/
+
+.community-fans {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.main-heading {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.main-text {
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  color: hsl(192, 100%, 9%);
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.get-start-btn {
+  background-color: hsl(322, 100%, 66%);
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  text-transform: capitalize;
+  margin-top: 3rem;
+  margin-bottom: 4.5rem;
+}
+
+.screen-mockup img {
+  width: 100%;
+}
+
+/*********************************************** Community fans sectoin CSS Finish ***********************************************/
+
+/*********************************************** Digital Data sectoin CSS Start ***********************************************/
+
+.digital-data {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.message-data {
+  margin-top: 4rem;
+}
+
+.digital-data img {
+  width: 2rem;
+  float: left;
+}
+
+.digital-data h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem;
+  text-align: left;
+}
+
+.digital-data p {
+  color: hsl(214, 3%, 53%);
+  text-transform: capitalize;
+}
+
+/*********************************************** Digital Data sectoin CSS Finih ***********************************************/
+
+/*********************************************** Banner section CSS Start ***********************************************/
+
+.banner .main-heading,
+.banner .main-text {
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.banner .main-heading {
+  margin-top: 3rem;
+}
+
+.banner .main-text {
+  margin-top: 1rem;
+}
+
+.banner .illustration-img {
+  text-align: center;
+}
+
+.banner .illustration-img img {
+  width: 80%;
+}
+
+.top-curve,
+.bottom-curve {
+  position: absolute;
+  width: 100%;
+}
+
+.top-curve {
+  top: -100px;
+}
+
+.bottom-curve {
+  bottom: -100px;
+}
+
+.bottom-curve .desk,
+.top-curve .desk,
+.bottom-curve .mob,
+.top-curve .mob {
+  width: 100%;
+  height: 105px;
+  display: block;
+}
+
+.grow-together {
+  background-color: hsl(207, 100%, 98%);
+  position: relative;
+  padding: 3rem 0;
+}
+
+.flowing-conversations {
+  padding-top: 12rem;
+  position: relative;
+}
+
+.your-users {
+  position: relative;
+  background-color: hsl(207, 100%, 98%);
+  padding: 3rem 0;
+  margin: 15rem 0;
+}
+
+.bottom-curve .desk,
+.top-curve .desk {
+  display: none;
+}
+
+/*********************************************** Banner section CSS Finish ***********************************************/
+
+/*********************************************** Build Community section CSS Start ***********************************************/
+
+.build-community {
+  text-align: center;
+  padding: 0 2rem;
+}
+
+/*********************************************** Build Community section CSS Finish ***********************************************/
+
+/*********************************************** Footer CSS Start ***********************************************/
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  color: #ffffff;
+  text-align: center;
+  padding: 3rem 2rem;
+  position: relative;
+  margin-top: 10rem;
+}
+
+.footer-svg {
+  position: absolute;
+  width: 100%;
+  top: -50px;
+  text-align: center;
+  left: 0;
+}
+
+.footer-svg .desk,
+.footer-svg .mob {
+  display: block;
+  width: 100%;
+  height: 50px;
+}
+
+.footer-svg .desk {
+  display: none;
+}
+
+.huddle-newsletter {
+  text-align: left;
+}
+
+.huddle-newsletter .main-heading,
+.huddle-newsletter .main-text {
+  color: #ffffff;
+  width: 100%;
+}
+
+.huddle-newsletter .main-heading {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.huddle-newsletter .main-text {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.newsletter-form {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#newsletter-field,
+.subscribe-btn {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+}
+
+#newsletter-field {
+  width: 100%;
+}
+
+.subscribe-btn {
+  width: 50%;
+  align-self: flex-end;
+  background-color: hsl(322, 100%, 66%);
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 1rem 3rem;
+  margin-top: 0.5rem;
+}
+
+.huddle-contact {
+  text-align: left;
+  margin-top: 5rem;
+}
+
+.huddle-contact .huddle-logo img {
+  color: #ffffff;
+  width: 70%;
+}
+
+.huddle-contact .main-text {
+  color: #ffffff;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.huddle-contact .huddle-phone,
+.huddle-contact .huddle-email {
+  display: flex;
+  align-items: center;
+}
+
+.huddle-phone .main-text,
+.huddle-email .main-text {
+  margin-top: 0;
+} 
+
+
+.huddle-contact .huddle-phone {
+  margin-top: 2rem;
+}
+
+.huddle-contact .huddle-email {
+  margin-top: 1.3rem;
+}
+
+.huddle-phone img,
+.huddle-email img {
+  width: 1.5rem;
+  height: 1.25rem;
+  margin-right: 1rem;
+}
+
+.social-icons {
+  text-align: left;
+  margin-top: 2rem;
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*********************************************** Footer CSS Finish ***********************************************/
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 375px) {
+  /* Changing the root element font */
+  html {
+    font-size: 15px;
+  }
+
+  /* Setting the width for text in community fan section */
+  .main-text {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  /* Changing the root element font */
+  html {
+    font-size: 15px;
+  }
+
+  /* Changing the padding for community fan section for big screen */
+  .community-fans {
+    padding: 2.5rem 4rem;
+  }
+
+  /* Setting the width for text in community fan section */
+  .main-text {
+    width: 70%;
+  }
+
+  /* Changing the flex direction to rows */
+  .digital-data {
+    flex-direction: row;
+  }
+
+  /* Removing the margin to align both divs in digital data */
+  .message-data {
+    margin-top: 0;
+  }
+
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* Changing the root element font */
+  html {
+    font-size: 16px;
+  }
+
+  /* Setting the width for text in community fan section */
+  .main-text {
+    width: 50%;
+  }
+
+  /* Banner Section */
+  /* Changing the divs in banner to flex */
+  .flowing-conversations,
+  .grow-together,
+  .your-users {
+    display: flex;
+  }
+
+  /* Setting the 50% width to illuster image and text on right ot left */
+  .information,
+  .illustration-img {
+    flex: 50%;
+  }
+
+  /* Changing banner middle section to float text on left */
+  .flowing-conversations {
+    flex-direction: row-reverse;
+  }
+
+  .grow-together .illustration-img,
+  .your-users .illustration-img,
+  .flowing-conversations .information {
+    padding-left: 4rem;
+  }
+
+  .grow-together .information,
+  .your-users .information,
+  .flowing-conversations .illustration-img {
+    padding-right: 4rem;
+  }
+
+  .banner .main-heading {
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .banner .main-text {
+    width: 100%;
+    text-align: left;
+  }
+
+  /* Hiding the mobile svg image (curves) of banner in desktop size */
+  .top-curve .mob,
+  .bottom-curve .mob , .footer-svg .mob {
+    display: none;
+  }
+
+  /* Displaying the desktop svg (curves) image on desktop  */
+  .top-curve .desk,
+  .bottom-curve .desk , .footer-svg .desk {
+    display: block;
+  }
+
+
+
+
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* Changing the root element font */
+  html {
+    font-size: 18px;
+  }
+
+  /* Setting the padding for screen mockup image */
+  .screen-mockup {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .banner .main-text {
+    width: 80%;
+    margin-left: 0;
+  }
+
+
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+
+  .huddle-contact , .huddle-newsletter {
+    width: 35%;
+  }
+
+  .huddle-contact {
+    margin-top: 0;
+  }
+
+  .newsletter-form {
+    flex-direction: row;
+  }
+
+  .subscribe-btn {
+    margin-top: 0;
+    margin-left: 20px;
+    width: 30%;
+    padding: 1rem .5rem;
+    text-align: center;
+  }
+
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Changing the root element font */
+  html {
+    font-size: 18.5px;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* Changing the root element font */
+  html {
+    font-size: 20px;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1800px) {
+  html {
+    /* Changing the root element font */
+    font-size: 40px;
+  }
+}
