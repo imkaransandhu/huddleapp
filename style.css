@@ -212,12 +212,12 @@ header {
 }
 
 .top-curve {
-  top: -100px;
+  top: -95px;
   left: 0;
 }
 
 .bottom-curve {
-  bottom: -100px;
+  bottom: -95px;
   left: 0;
 }
 
@@ -278,16 +278,15 @@ footer {
 .footer-svg {
   position: absolute;
   width: 100%;
-  top: -50px;
-  text-align: center;
+  top: -95px;
   left: 0;
 }
 
 .footer-svg .desk,
 .footer-svg .mob {
-  display: block;
+  display: inline;
   width: 100%;
-  height: 50px;
+  height: 100px;
 }
 
 .footer-svg .desk {
