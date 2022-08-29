@@ -213,10 +213,12 @@ header {
 
 .top-curve {
   top: -100px;
+  left: 0;
 }
 
 .bottom-curve {
   bottom: -100px;
+  left: 0;
 }
 
 .bottom-curve .desk,
@@ -225,7 +227,7 @@ header {
 .top-curve .mob {
   width: 100%;
   height: 105px;
-  display: block;
+  display: inline;
 }
 
 .grow-together {
@@ -507,7 +509,7 @@ footer {
   /* Displaying the desktop svg (curves) image on desktop  */
   .top-curve .desk,
   .bottom-curve .desk , .footer-svg .desk {
-    display: block;
+    display: inline;
   }
 
 
